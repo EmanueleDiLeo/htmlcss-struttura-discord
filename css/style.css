@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+.flex{
+  display: flex;
+}
+
 /* ***************** DELETE ******************* */
 .debug{
   background-color: red;
@@ -25,10 +29,6 @@
 header{
   padding: 20px 0;
   background-color: antiquewhite;
-}
-
-.flex{
-  display: flex;
 }
 
 .box-header{
@@ -48,19 +48,42 @@ header{
 
 .section-intro{
   background-color: blue;
+  padding: 40px 0px;
 }
 
-.div-intro-container{
+.div-intro-center{
   width: 65%;
+  max-width: 1000px;
   margin: 0 auto;
+  height: 300px;
+  background-color: blueviolet
 
 }
 
 .div-intro{
   margin: 40px 0px;
-  height: 200px;
   display: flex;
   height: 300px;
   background-color: blueviolet;
+}
+
+/* ********** group ************/
+.section-group{
+  background-color: beige;
+  padding: 40px 0px;
+}
+
+/* GENERAL */
+
+.div-general-img{
+  width: 75%;
+  height: 300px;
+  background-color: red;
+}
+
+.div-general-text{
+  width: 25%;
+  height: 300px;
+  background-color: chocolate;
 }
 
