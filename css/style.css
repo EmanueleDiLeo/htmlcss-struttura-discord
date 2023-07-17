@@ -1,4 +1,4 @@
-/* ************************************* GENERALE ********************************************* */
+/* ************************************* GENERAL ********************************************* */
 
 /* reset */
 *{
@@ -6,4 +6,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ***************** DELETE ******************* */
+.debug{
+  background-color: red;
+  border: 1px solid black;
+  min-height: 40px;
+}
+
+
+/* *************************************HEADER **************************************** */
+header{
+  margin: 20px 0;
+}
+
+.flex-header{
+  display: flex;
+  width: 100%;
+}
+
+.box-header{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 25%;
+  background-color: aquamarine;
+}
+
+.link{
+  width: 50%;
+}
+
 
