@@ -23,12 +23,12 @@
 
 /* *************************************HEADER **************************************** */
 header{
-  margin: 20px 0;
+  padding: 20px 0;
+  background-color: antiquewhite;
 }
 
-.flex-header{
+.flex{
   display: flex;
-  width: 100%;
 }
 
 .box-header{
@@ -43,4 +43,24 @@ header{
   width: 50%;
 }
 
+
+/* *************************************MAIN ************************************************ */
+
+.section-intro{
+  background-color: blue;
+}
+
+.div-intro-container{
+  width: 65%;
+  margin: 0 auto;
+
+}
+
+.div-intro{
+  margin: 40px 0px;
+  height: 200px;
+  display: flex;
+  height: 300px;
+  background-color: blueviolet;
+}
 
