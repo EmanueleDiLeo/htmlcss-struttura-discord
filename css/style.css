@@ -99,13 +99,14 @@ header{
 
 footer{
   background-color: black;
-  padding: 6px 0px;
+  padding-top: 10px;
 }
 
 .div-social{
   height: 300px;
   width: 40%;
   background-color: darkgreen;
+  margin-bottom: 20px;
 }
 
 .div-info{
@@ -115,7 +116,19 @@ footer{
 }
 
 .border{
- border-bottom: 1px solid white;
+   border-bottom: 2px solid white;
 }
 
+.ending{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+.ending-h{
+  height: 40px;
+  background-color: cyan;
+}
 
